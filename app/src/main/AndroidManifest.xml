@@ -9,17 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Userprofileactivity">
-        <activity android:name=".autocomplete">
+        <activity android:name=".datepicker">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-       <!-- <activity android:name=".spinneractivity" />-->
-        <activity android:name=".MainActivity">
+        <activity android:name=".addactivity" />
+        <activity android:name=".alertactivity">
 
         </activity>
+        <activity android:name=".autocomplete" /> <!-- <activity android:name=".spinneractivity" /> -->
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
